@@ -14,6 +14,7 @@ import org.gjt.mm.mysql.Driver;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        PoolConnections poolCon = new PoolConnections();
 
         ServerSocket listener = new ServerSocket(8080);
         try {

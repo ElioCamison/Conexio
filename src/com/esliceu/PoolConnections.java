@@ -18,7 +18,6 @@ public class PoolConnections {
         if (stack.size() <= MAX_NUM_COM){
             stack.push(con);
         }
-
     }
 
 }
